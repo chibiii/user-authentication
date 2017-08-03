@@ -1,0 +1,1 @@
+Basic Symfony application with user authentication using FOSUserBundle
