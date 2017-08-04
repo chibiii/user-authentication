@@ -1,6 +1,6 @@
 <?php
 
-namespace App\UserBundle\Controller;
+namespace SymfonyCebu\UserBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
@@ -8,6 +8,6 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('AppUserBundle:Default:index.html.twig');
+        return $this->render('SymfonyCebuUserBundle:Default:index.html.twig');
     }
 }
